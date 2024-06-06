@@ -38,7 +38,7 @@
 
     function goToProduct(productID: string, position: number) {
         result = null;
-        window.location.href = `/product/${productID}`;
+        alert(`Navigating to product ${productID} at position ${position}`)
     }
 </script>
 
